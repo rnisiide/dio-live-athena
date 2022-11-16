@@ -1,6 +1,6 @@
 select region,
 	sum(population)
-from "population"."population"
+from "populationdb"."population"
 where region='Sul'
 group by region;
 
